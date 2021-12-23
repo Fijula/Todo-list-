@@ -1,4 +1,4 @@
-.App{
+/* .App{
   text-align: center;
 }
 .main {
@@ -103,4 +103,62 @@ button{
   to {
     transform: rotate(360deg);
   }
-} */
+} */ 
+
+.main{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding:1rem;
+
+}
+.formy{
+  margin: 1rem;
+  padding: 1rem;
+}
+.submitf{
+  margin:0.5rem;
+  padding:0.2rem;
+  padding-left: 0.3rem;
+  background-color: lightblue;
+  border-radius: 0.5rem;
+}
+.images{
+width: 70%;
+height:50%;
+border-radius: 2rem;;
+}
+ .title{
+font-weight: 700;
+max-width:70%;
+ }
+ .recipes_main{
+   margin-left:2rem;
+   display: grid;
+   grid-template-columns: 250px 250px;
+   
+ }
+ .submitf{
+   cursor: pointer;
+   background-color: lightblue;
+   color: blue;
+   border: transparent;
+   padding:0.5rem;
+   margin: 1rem;
+   ;
+ }
+ .submitf:hover{
+   color: white;
+   background-color: darkblue;
+ }
+ .inputy{
+   border-radius: 1rem;
+   border: 1px solid grey;
+   padding:0.4rem;
+   
+ }
+ .selecty{
+   border-radius: 1rem;
+   padding: 0.3rem;
+ }
